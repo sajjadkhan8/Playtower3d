@@ -415,6 +415,16 @@ body {
   background: #ea580c;
 }
 
+/* Google Play icon in download button */
+.google-play-icon {
+  height: 32px;
+  width: auto;
+  margin-right: 0;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  display: block;
+}
+
 /* Footer */
 .footer {
   background: white;
@@ -630,4 +640,58 @@ body {
   .games-grid {
     grid-template-columns: 1fr;
   }
+}
+
+.store-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+  justify-content: center;
+}
+
+.store-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f3f4f6;
+  border: none;
+  padding: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  width: 112px;
+  height: 56px;
+  min-width: 152px;
+  min-height: 56px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  transition: background 0.2s, box-shadow 0.2s, transform 0.15s;
+}
+
+.store-btn:hover {
+  background: #e5e7eb;
+  box-shadow: 0 4px 16px rgba(249,115,22,0.08);
+  transform: scale(1.06);
+}
+
+.store-icon {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  display: block;
+}
+
+.google-play-btn {
+  background: #f97316;
+}
+.google-play-btn:hover {
+  background: #ea580c;
+}
+
+.app-store-btn {
+  background: #2563eb;
+}
+.app-store-btn:hover {
+  background: #1d4ed8;
 }

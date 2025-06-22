@@ -2,9 +2,9 @@
 const games = [
   {
     name: "Coin Rainbow: Lucky Dozer",
-    image: "https://via.placeholder.com/300x200/FF6B6B/FFFFFF?text=Coin+Rainbow",
+    image: "https://play-lh.googleusercontent.com/ddKD7hFUNtvWDRw8snfBkoACVQDYdQeMQQ-ZO4k0RGgh5nqzrn7iFuOYL4-uhZOIyxM=w5120-h2880-rw",
     description: "Push coins and collect treasures in this exciting dozer game with rainbow rewards and lucky bonuses!",
-    playStoreUrl: "https://play.google.com/store/apps/details?id=com.playtower3d.coinrainbow",
+    playStoreUrl: "https://play.google.com/store/apps/details?id=com.red3games.coin.rainbow.lucky.dozer",
     featured: true,
   },
   {
@@ -89,10 +89,14 @@ function createGameCard(game) {
         <div class="game-content">
             <h3 class="game-title">${game.name}</h3>
             <p class="game-description">${game.description}</p>
-            <a href="${game.playStoreUrl}" target="_blank" rel="noopener noreferrer" class="download-btn">
-                <i class="fas fa-external-link-alt"></i>
-                Download Now
-            </a>
+            <div class="store-buttons">
+                <a href="${game.playStoreUrl}" target="_blank" rel="noopener noreferrer" class="store-btn google-play-btn">
+                    <img src="assets/img/googleplay.jpg" alt="Google Play" class="store-icon" />
+                </a>
+                <a href="${game.appStoreUrl || '#'}" target="_blank" rel="noopener noreferrer" class="store-btn app-store-btn">
+                    <img src="assets/img/appstore.jpg" alt="App Store" class="store-icon" />
+                </a>
+            </div>
         </div>
     `
 
