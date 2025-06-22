@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playtower3d - Chart Topping Mobile Games</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <div class="logo-icon">P3</div>
+                    <h1>playtower<span class="accent">3d</span></h1>
+                </div>
+                <nav class="nav">
+                    <a href="#games">Games</a>
+                    <a href="#about">Studio</a>
+                    <a href="terms.html">Terms</a>
+                    <a href="privacy.html">Privacy</a>
+                    <a href="https://facebook.com/playtower3d" class="contact-btn">Contact</a>
+                </nav>
+                <div class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <!-- Left Content -->
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h2>We make<br>
+                            <span class="chart-topping">Chart Topping<div class="underline"></div></span><br>
+                            <span>Games!</span>
+                        </h2>
+                    </div>
+
+                    <!-- Stats -->
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-icon">
+                                <i class="fas fa-gamepad"></i>
+                            </div>
+                            <div class="stat-label">ACTIVE</div>
+                            <div class="stat-sublabel">SINCE 2020</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <div class="stat-label">8+</div>
+                            <div class="stat-sublabel">GAMES</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-icon">
+                                <i class="fas fa-download"></i>
+                            </div>
+                            <div class="stat-label">MILLION</div>
+                            <div class="stat-sublabel">DOWNLOADS</div>
+                        </div>
+                    </div>
+
+                    <!-- Company Description -->
+                    <div class="company-description">
+                        <p>We are an indie mobile game development studio passionate about creating fun, engaging, and innovative games for players worldwide. Our diverse portfolio spans from exciting arcade adventures to challenging puzzle games.</p>
+                    </div>
+                </div>
+
+                <!-- Right Visual -->
+                <div class="hero-visual">
+                    <div class="game-showcase">
+                        <div class="game-logo">
+                            <h3>Coin Rainbow</h3>
+                            <p>Lucky Dozer</p>
+                        </div>
+                        <div class="floating-element element-1"></div>
+                        <div class="floating-element element-2"></div>
+                        <div class="floating-element element-3"></div>
+                        <div class="background-pattern">
+                            <div class="pattern-grid"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Games Section -->
+    <section id="games" class="games-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our <span class="accent">Games</span></h2>
+                <p>Discover our collection of exciting mobile games that have entertained millions of players worldwide</p>
+            </div>
+
+            <div class="games-grid" id="gamesGrid">
+                <!-- Games will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Company Info -->
+                <div class="footer-company">
+                    <div class="footer-logo">
+                        <div class="logo-icon">P3</div>
+                        <h3>playtower<span class="accent">3d</span></h3>
+                    </div>
+                    <p>Creating amazing mobile games that bring joy and entertainment to millions of players worldwide. Join our gaming community today!</p>
+                    <div class="social-links">
+                        <a href="https://facebook.com/playtower3d" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="mailto:contact@playtower3d.com">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#games">Our Games</a></li>
+                        <li><a href="#about">About Studio</a></li>
+                        <li><a href="https://facebook.com/playtower3d">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Legal -->
+                <div class="footer-legal">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="terms.html"><i class="fas fa-file-text"></i> Terms & Conditions</a></li>
+                        <li><a href="privacy.html"><i class="fas fa-shield-alt"></i> Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Playtower3d. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
