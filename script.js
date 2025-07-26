@@ -41,7 +41,7 @@ const games = [
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwDbvj6Xarr6TG4FHrQUydJrL10ogyHzDcVg&s",
     description: "Help brave penguins dive from icy cliffs in this thrilling arctic adventure with stunning visuals.",
     playStoreUrl: "https://play.google.com/store/apps/details?id=com.playtower3d.penguincliffdive",
-    featured: true,
+    featured: false,
   },
   {
     name: "Snow Moto Racer",
